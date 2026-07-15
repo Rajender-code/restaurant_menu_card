@@ -1,0 +1,152 @@
+/* Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Body */
+body{
+    background:linear-gradient(135deg,#ffecd2,#fcb69f);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    padding:30px;
+}
+
+/* Menu Card */
+.menu-card{
+    width:450px;
+    background:#fff;
+    border-radius:15px;
+    padding:25px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Header */
+.header{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.header h1{
+    color:#d35400;
+    font-size:34px;
+    margin-bottom:8px;
+}
+
+.header p{
+    color:#666;
+    font-size:18px;
+    margin-bottom:10px;
+}
+
+.header hr{
+    border:none;
+    height:3px;
+    background:#d35400;
+    border-radius:5px;
+}
+
+/* Sections */
+.section{
+    margin:20px 0;
+}
+
+.section h2{
+    color:#e67e22;
+    margin-bottom:12px;
+    border-left:5px solid #e67e22;
+    padding-left:10px;
+    font-size:24px;
+}
+
+/* Menu Items */
+.item{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:10px 0;
+    border-bottom:1px dashed #ccc;
+    font-size:18px;
+}
+
+.item:last-child{
+    border-bottom:none;
+}
+
+.item span:last-child{
+    color:#27ae60;
+    font-weight:bold;
+}
+
+/* Hover Effect */
+.item:hover{
+    background:#fff8f0;
+    padding-left:10px;
+    transition:0.3s;
+    cursor:pointer;
+}
+
+/* Today's Special */
+.special{
+    background:#ff9800;
+    color:white;
+    text-align:center;
+    padding:18px;
+    border-radius:10px;
+    font-size:20px;
+    font-weight:bold;
+    margin:25px 0;
+    box-shadow:0 5px 10px rgba(0,0,0,0.2);
+}
+
+/* Footer */
+.footer{
+    text-align:center;
+}
+
+.footer hr{
+    border:none;
+    height:2px;
+    background:#d35400;
+    margin-bottom:15px;
+}
+
+.footer h3{
+    color:#d35400;
+    margin-bottom:5px;
+}
+
+.footer p{
+    color:#555;
+    font-size:17px;
+}
+
+/* Responsive */
+@media(max-width:500px){
+
+    .menu-card{
+        width:100%;
+        padding:20px;
+    }
+
+    .header h1{
+        font-size:28px;
+    }
+
+    .section h2{
+        font-size:22px;
+    }
+
+    .item{
+        font-size:16px;
+    }
+
+    .special{
+        font-size:18px;
+    }
+
+}
